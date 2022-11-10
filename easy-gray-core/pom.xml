@@ -4,9 +4,9 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>com.easy</groupId>
+        <groupId>io.github.tudouyay</groupId>
         <artifactId>easy-gray</artifactId>
-        <version>1.0.0-SNAPSHOT</version>
+        <version>1.0.0</version>
     </parent>
 
     <artifactId>easy-gray-core</artifactId>
@@ -14,7 +14,6 @@
     <name>easy-gray-core</name>
     <description>easy-gray-core</description>
     <properties>
-
     </properties>
 
     <dependencies>

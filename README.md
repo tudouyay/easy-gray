@@ -77,10 +77,9 @@ spring-cloud-gateway api网关中引入如下 jar:
 
 ```xml
 <dependency>
-    <groupId>com.easy</groupId>
+    <groupId>io.github.tudouyay</groupId>
     <artifactId>easy-gray-gateway</artifactId>
-    <version>0.0.3-SNAPSHOT</version>
-    
+    <version>1.0.0</version>
 </dependency>
 ```
 参见演示项目`easy-gray-gateway-api`
@@ -88,9 +87,9 @@ spring-cloud-gateway api网关中引入如下 jar:
 spring-boot-web 类服务中引入如下jar:
 ```xml
 <dependency>
-    <groupId>com.easy</groupId>
+    <groupId>io.github.tudouyay</groupId>
     <artifactId>easy-gray-core</artifactId>
-    <version>0.0.19-SNAPSHOT</version>
+    <version>1.0.0</version>
 </dependency>
 ```
 
@@ -166,7 +165,7 @@ feat: 初始化项目
 
 | 本项目版本 | spring-cloud版本 | spring-boot版本 |
 |--| --- |---------------|
-| 0.0.1 |  3.1.1 | 2.6.3              |
+| 1.0.0 |  3.1.1 | 2.6.3              |
 
 
 
@@ -200,7 +199,7 @@ feat: 初始化项目
 </tr>
 </table>
 
-0.0.1版：
+1.0.0版：
 - 基于nacos配置、注册中心的核心完成；
 
 

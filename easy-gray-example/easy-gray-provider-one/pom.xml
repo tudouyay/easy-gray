@@ -3,22 +3,22 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
-        <groupId>com.easy</groupId>
+        <groupId>io.github.tudouyay</groupId>
         <artifactId>easy-gray</artifactId>
-        <version>1.0.0-SNAPSHOT</version>
+        <version>1.0.0</version>
     </parent>
     <groupId>com.husky</groupId>
     <artifactId>easy-gray-provider-one</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>1.0.0</version>
     <name>easy-gray-provider-one</name>
     <description>easy-gray-provider-one</description>
     <properties>
-
+        <mvn.deploy.skip>true</mvn.deploy.skip>
     </properties>
     <dependencies>
 
         <dependency>
-            <groupId>com.easy</groupId>
+            <groupId>io.github.tudouyay</groupId>
             <artifactId>easy-gray-core</artifactId>
             <version>${easy-gray-core.version}</version>
         </dependency>

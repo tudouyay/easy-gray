@@ -5,12 +5,13 @@
 
     <groupId>com.husky</groupId>
     <artifactId>easy-gray-intf</artifactId>
-    <version>0.0.2-SNAPSHOT</version>
+    <version>1.0.0</version>
     <name>easy-gray-intf</name>
     <description>feign服务引用接口</description>
 
     <properties>
         <java.version>1.8</java.version>
+        <mvn.deploy.skip>true</mvn.deploy.skip>
     </properties>
     <dependencies>
 
